@@ -63,6 +63,10 @@ namespace _1TypeSystem
 
             string myNull; //Value is null
             MyClass myClass4; //Value is null
+
+            //However, we cannot use var and assign the value to null.
+            //Uncomment the below line to get a compilation error.
+            //var myValue = null;
         }
     }
 }
