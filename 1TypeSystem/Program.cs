@@ -67,6 +67,8 @@ namespace _1TypeSystem
             //However, we cannot use var and assign the value to null.
             //Uncomment the below line to get a compilation error.
             //var myValue = null;
+
+            Console.ReadLine();
         }
     }
 }

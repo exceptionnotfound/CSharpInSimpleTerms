@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1TypeSystem", "1TypeSystem\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2PrimitiveTypes", "2PrimitiveTypes\2PrimitiveTypes.csproj", "{621238A7-E2F6-44AC-B976-79DE7790D22B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3CastingAndConversion", "3CastingAndConversion\3CastingAndConversion.csproj", "{5333E21D-95D1-4F8A-8240-6AA3346D2152}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{621238A7-E2F6-44AC-B976-79DE7790D22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{621238A7-E2F6-44AC-B976-79DE7790D22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{621238A7-E2F6-44AC-B976-79DE7790D22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5333E21D-95D1-4F8A-8240-6AA3346D2152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5333E21D-95D1-4F8A-8240-6AA3346D2152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5333E21D-95D1-4F8A-8240-6AA3346D2152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5333E21D-95D1-4F8A-8240-6AA3346D2152}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
