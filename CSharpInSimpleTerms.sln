@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3CastingAndConversion", "3C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4Operators", "4Operators\4Operators.csproj", "{CAC88511-07DF-4EE6-9DC9-C941698FEAFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8StructsAndEnums", "8StructsAndEnums\8StructsAndEnums.csproj", "{E6B56303-2EA5-4F51-BAEA-D911C09A6399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8StructsAndEnums", "8StructsAndEnums\8StructsAndEnums.csproj", "{E6B56303-2EA5-4F51-BAEA-D911C09A6399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5BasicStatementsAndLoops", "5BasicStatementsAndLoops\5BasicStatementsAndLoops.csproj", "{55174E97-75EA-46FE-B1E7-90220C313535}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E6B56303-2EA5-4F51-BAEA-D911C09A6399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B56303-2EA5-4F51-BAEA-D911C09A6399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6B56303-2EA5-4F51-BAEA-D911C09A6399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55174E97-75EA-46FE-B1E7-90220C313535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55174E97-75EA-46FE-B1E7-90220C313535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55174E97-75EA-46FE-B1E7-90220C313535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55174E97-75EA-46FE-B1E7-90220C313535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
