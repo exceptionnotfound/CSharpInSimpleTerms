@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8StructsAndEnums", "8Struct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5BasicStatementsAndLoops", "5BasicStatementsAndLoops\5BasicStatementsAndLoops.csproj", "{55174E97-75EA-46FE-B1E7-90220C313535}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6Methods", "6Methods\6Methods.csproj", "{600F02ED-5452-4AAB-9DCF-5B48D7F8373C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{55174E97-75EA-46FE-B1E7-90220C313535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55174E97-75EA-46FE-B1E7-90220C313535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55174E97-75EA-46FE-B1E7-90220C313535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600F02ED-5452-4AAB-9DCF-5B48D7F8373C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600F02ED-5452-4AAB-9DCF-5B48D7F8373C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600F02ED-5452-4AAB-9DCF-5B48D7F8373C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600F02ED-5452-4AAB-9DCF-5B48D7F8373C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
