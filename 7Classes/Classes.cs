@@ -87,25 +87,26 @@ namespace _7Classes
     //(Compare ExampleClass4 with ExampleClass3)
 
     //CALCULATED PROPERTIES
-    //Properties in a class can reference other properties to get their value.
+    //Properties in a class can reference other properties to calculate a value.
     //A specific form of this is calculated properties.
+    //Calculated properties only have a getter method, by definition.
     class ExampleClass5
     {
-        public string Property1 { get; set; }
-        protected int Property2 { get; set; }
-        public decimal Property3 { get; set; }
+        public string ItemName { get; set; }
+        protected int Quantity { get; set; }
+        public decimal ItemPrice { get; set; }
 
-        public bool HasMoney
+        public decimal TotalCost
         {
             get
             {
-                return Property3 > 0.0M;
+                return Quantity * ItemPrice;
             }
         }
     }
 
-    //The calculated property HasMoney relies on the value of Property3.
-    //Also, HasMoney does not have a setter method, since we cannot set its value.
+    //The calculated property TotalCost relies on the value of ItemPrice and Quantity.
+    //Also, TotalCost does not have a setter method, since we cannot set its value.
 
     //CLASS ACCESS MODIFIERS
     //Classes, like properties, can have access modifiers applied to them.
