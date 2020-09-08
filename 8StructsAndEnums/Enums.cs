@@ -34,9 +34,9 @@ namespace _8StructsAndEnums
         Grey = 42
     }
 
-    //The below enum is used as a bitwise flag.
+    //The below enum is used as a bit flag.
     //The attribute [Flags] specifies that it can be used this way.
-    //Also, every value must be a power of 2. The powers are marked.
+    //Also, every value must be a power of 2.
     [Flags]
     public enum Months
     {
