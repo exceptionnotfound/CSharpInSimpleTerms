@@ -5,7 +5,7 @@ using System.Text;
 namespace _7Classes
 {
     //CLASSES
-    //A class in C# is a definition that can be used to create *instances* of objects.
+    //A class in C# is a definition that can be used to create instances of objects.
 
     class TestClass
     {

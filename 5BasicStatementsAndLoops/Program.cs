@@ -7,6 +7,15 @@ namespace _5BasicStatementsAndLoops
     {
         static void Main(string[] args)
         {
+            //CODE BLOCKS
+            //In C#, a code block is a collection of lines of code bounded by curly braces {}
+            {
+                Console.WriteLine("Executing a code block!");
+            }
+
+            //Generally, we don't use code blocks all by themselves; most often
+            //we use them as part of either selection statements or loops.
+
             //SELECTION STATEMENTS
             //C# includes a number of keywords designed to help us decide where
             //the code execution flow should go next.
