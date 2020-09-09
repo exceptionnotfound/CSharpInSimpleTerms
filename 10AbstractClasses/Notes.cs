@@ -34,16 +34,16 @@ namespace _10AbstractClasses
         }
     }
 
-public class Silica : Gem2, IHardness
-{
-    public double Hardness { get; set; }
-
-    public override string Color { get; set; }
-
-    public Silica()
+    public class Silica : Gem2, IHardness
     {
-        Hardness = 2.5;
-        Color = "Rainbow, reflects light";
+        public double Hardness { get; set; }
+
+        public override string Color { get; set; }
+
+        public Silica()
+        {
+            Hardness = 2.5;
+            Color = "Rainbow, reflects light";
+        }
     }
-}
 }
