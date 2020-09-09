@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_10InterfacesAndAbstractClasses</RootNamespace>
+    <RootNamespace>_10Interfaces</RootNamespace>
   </PropertyGroup>
 
 </Project>
