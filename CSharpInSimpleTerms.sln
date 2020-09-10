@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7Classes", "7Classes\7Class
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9Inheritance", "9InheritanceAndPolymorphism\9Inheritance.csproj", "{D2C8CBE4-80C0-486C-BAC4-0E672032BA03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9Polymorphism", "9Polymorphism\9Polymorphism.csproj", "{D6C72160-C292-4453-BD91-BDC3AD66613A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9Polymorphism", "9Polymorphism\9Polymorphism.csproj", "{D6C72160-C292-4453-BD91-BDC3AD66613A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Interfaces", "10InterfacesAndAbstractClasses\10Interfaces.csproj", "{BBD41A76-EC54-4CDD-9A3A-254B33EBA09D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10Interfaces", "10InterfacesAndAbstractClasses\10Interfaces.csproj", "{BBD41A76-EC54-4CDD-9A3A-254B33EBA09D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10AbstractClasses", "10AbstractClasses\10AbstractClasses.csproj", "{CD3E803D-99B7-44F7-B81C-37AA6DA949B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10AbstractClasses", "10AbstractClasses\10AbstractClasses.csproj", "{CD3E803D-99B7-44F7-B81C-37AA6DA949B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11Namespaces", "11Namespaces\11Namespaces.csproj", "{A395CCC6-AB5B-4D89-AE7A-2E3EF3580791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11Namespaces", "11Namespaces\11Namespaces.csproj", "{A395CCC6-AB5B-4D89-AE7A-2E3EF3580791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12ExceptionHandling", "12ExceptionHandling\12ExceptionHandling.csproj", "{34496070-2D18-42E1-81EA-496B13D9399D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{A395CCC6-AB5B-4D89-AE7A-2E3EF3580791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A395CCC6-AB5B-4D89-AE7A-2E3EF3580791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A395CCC6-AB5B-4D89-AE7A-2E3EF3580791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34496070-2D18-42E1-81EA-496B13D9399D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34496070-2D18-42E1-81EA-496B13D9399D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34496070-2D18-42E1-81EA-496B13D9399D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34496070-2D18-42E1-81EA-496B13D9399D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
