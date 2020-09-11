@@ -5,6 +5,7 @@ namespace _6Methods
     class Program
     {
         //METHOD BASICS
+
         //Go to the class Methods.cs to start this lesson.
 
         public static void Main(string[] args)

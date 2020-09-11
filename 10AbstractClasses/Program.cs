@@ -3,6 +3,7 @@
 namespace _10AbstractClasses
 {
     //ABSTRACT CLASSES
+
     //Abstract classes serve a similar purpose as interfaces: they allow us to have
     //multiple classes inherit a set of methods, properties, and other members.
     //An abstract class is defined using the *abstract* keyword.
@@ -56,6 +57,7 @@ namespace _10AbstractClasses
     //public class Peridot : Gem { }
 
     //ABSTRACT PROPERTIES
+
     //Properties in a class can also be marked abstract. The inheriting class
     //can then override the properties to provide their own implementation.
     public abstract class Mineral //Base class

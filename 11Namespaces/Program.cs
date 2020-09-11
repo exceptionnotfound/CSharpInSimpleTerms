@@ -1,6 +1,7 @@
 ﻿using System;
 
 //NAMESPACES
+
 //Namespaces in C# are used to organize code into different "areas".
 //Think of namespaces as containers for classes, methods, and objects.
 
@@ -29,6 +30,7 @@ namespace _11Namespaces //Namespace
         static void Main(string[] args) //Method Name
         {
             //NAMESPACE NESTING
+
             //If we want to call the class C2 (defined in NamespaceNesting.cs)
             //we can do it one of two ways.
             //Either we can use the fully-qualified namespace:

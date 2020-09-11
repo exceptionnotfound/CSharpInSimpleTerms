@@ -8,6 +8,7 @@ namespace _5BasicStatementsAndLoops
         static void Main(string[] args)
         {
             //CODE BLOCKS
+
             //In C#, a code block is a collection of lines of code bounded by curly braces {}
             {
                 Console.WriteLine("Executing a code block!");
@@ -17,6 +18,7 @@ namespace _5BasicStatementsAndLoops
             //we use them as part of either selection statements or loops.
 
             //SELECTION STATEMENTS
+
             //C# includes a number of keywords designed to help us decide where
             //the code execution flow should go next.
 
@@ -88,10 +90,12 @@ namespace _5BasicStatementsAndLoops
             Console.WriteLine($"The selected card color is {cardColor}");
 
             //LOOPS
+
             //Loops are code blocks that are executed multiple times in a row.
             //There are four ways to implement a loop.
 
             //FOR LOOPS
+
             //A basic FOR loop has three parts:
             //1. An initializer variable
             //2. A boundary condition
@@ -111,6 +115,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //FOREACH LOOP
+
             //When dealing with collections of objects (see project 13ArraysAndCollections)
             //we can execute some code against each item in a collection using a foreach loop.
             var items = new int[] { 4, 5, 6, 7, 8 };
@@ -138,6 +143,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //WHILE LOOP
+
             //A while loop evaluates a condition, and so long as that condition
             //is true, it will continue executing the code in the loop.
             int myVal = 5;
@@ -156,6 +162,7 @@ namespace _5BasicStatementsAndLoops
             //}
 
             //DO WHILE LOOP
+
             //A do-while loop will always execute at least once, because
             //the condition is evaluated at the *end* of the loop
             myVal = 5;
@@ -167,7 +174,9 @@ namespace _5BasicStatementsAndLoops
             } while (myVal < 1000);
 
             //BREAKING THE LOOP
+
             //BREAK
+
             //The keyword 'break' will end the loop and no further iterations will be executed.
             for (int i = 0; i < 10; i++)
             {
@@ -179,6 +188,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //CONTINUE
+
             //The continue keyword will stop the current iteration of the loop,
             //but execution will resume at the next iteration.
             myVal = 5;
@@ -197,6 +207,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //RETURN
+
             //The return keyword stops execution of the loop and will return a value
             //to the calling code.
             //See the Email.cs file for the implementation of the method below, which includes a loop.

@@ -20,7 +20,7 @@ namespace _7Classes
             var myClassF = new ClassF("stringValue");
             var otherClassF = new ClassF("stringValue", 6);
 
-            //IMPLICIT CONSTRUCTOR
+            //IMPLICIT CONSTRUCTORS
             var myClassG = new ClassG();
         }
     }

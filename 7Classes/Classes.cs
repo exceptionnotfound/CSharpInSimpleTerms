@@ -4,7 +4,8 @@ using System.Text;
 
 namespace _7Classes
 {
-    //CLASSES
+    //START HERE
+
     //A class in C# is a definition that can be used to create instances of objects.
 
     class TestClass
@@ -13,12 +14,14 @@ namespace _7Classes
     }
 
     //MEMBERS
+
     //Classes can have *members*, which include:
     //Properties - provide a way to read, write, or change a value
     //Methods - A code block which can be invoked
     //Constructors - A special kind of method that sets the initial values of an instance
 
-    //CLASS PROPERTIES
+    //PROPERTIES
+
     //We define properties in a class by giving them a type.
     class ExampleClass
     {
@@ -26,6 +29,8 @@ namespace _7Classes
         public int Property2; 
         public decimal Property3;
     }
+
+    //ACCESS MODIFIERS
 
     //The properties above each have an "access modifier" which tells the C# compiler
     //what kinds of objects can access that property.
@@ -37,6 +42,7 @@ namespace _7Classes
     //By default, all properties without an access modifier are private.
 
     //GETTER AND SETTER METHODS
+
     //In the ExampleClass above, the "properties" are actually *fields*.
     //Fields must be accessed directly. This is considered bad practice.
     //We can change fields to full properties by implementing getter and setter methods.
@@ -73,6 +79,7 @@ namespace _7Classes
     }
 
     //AUTO-IMPLEMENTED PROPERTIES
+
     //We can set up "auto-implemented" properties by using the { get; set; } syntax
     //on public and protected properties.
     class ExampleClass4
@@ -87,6 +94,7 @@ namespace _7Classes
     //(Compare ExampleClass4 with ExampleClass3)
 
     //CALCULATED PROPERTIES
+
     //Properties in a class can reference other properties to calculate a value.
     //A specific form of this is calculated properties.
     //Calculated properties only have a getter method, by definition.
@@ -109,6 +117,7 @@ namespace _7Classes
     //Also, TotalCost does not have a setter method, since we cannot set its value.
 
     //CLASS ACCESS MODIFIERS
+
     //Classes, like properties, can have access modifiers applied to them.
     public class PublicClass { /*...*/ }
     class InternalClass { /*...*/ } //Default access modifier is internal
@@ -117,6 +126,7 @@ namespace _7Classes
     //must be public or internal. Internal is the default.
 
     //DERIVED CLASSES AND ACCESS MODIFIERS
+
     //A base class (that is, a class which has other classes inheriting from it)
     //cannot be less accessible than its base class.
     internal class ClassA { /*...*/ }
@@ -125,6 +135,7 @@ namespace _7Classes
     //public class ClassB : ClassA { /*...*/ }
 
     //METHODS
+
     //Classes can have methods, which can be invoked on instances of the class.
     public class ClassC
     {
@@ -149,6 +160,7 @@ namespace _7Classes
     }
 
     //CONSTRUCTORS
+
     //Constructors are special methods in a class which are called when
     //an instance of the class is created. Constructors specify the starting
     //values of a class's properties.
@@ -180,7 +192,8 @@ namespace _7Classes
         }
     }
 
-    //IMPLICIT CONSTRUCTOR
+    //IMPLICIT CONSTRUCTORS
+
     //If we do not specify a constructor method for class, the compiler
     //we create an implicit constructor.
     //This kind of constructor is also called a public parameterless constructor,

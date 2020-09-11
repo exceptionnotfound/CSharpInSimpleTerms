@@ -7,7 +7,10 @@ namespace _3CastingAndConversion
         static void Main(string[] args)
         {
             //CASTING
-            //We cast a value to another value by putting the desired type in ()
+
+            //"Casting" is the act of taking a value of one type and attempting
+            //to "force" that value to be another type. 
+            //We cast a variable to another type by putting the desired type in ()
             int five = 5;
             var doubleFive = (double)five;
 
@@ -17,9 +20,13 @@ namespace _3CastingAndConversion
             float myFloat = 4.56F;
             decimal myMoney = (decimal)myFloat;
 
+            //This will work, provided the value in the original type is also
+            //a valid value in the new type.
+
             //However, some casts will fail because there is no implicit
             //way to convert the value.
             string myString = "This is a sentence";
+
             //Uncomment the below line to get a compilation error.
             //byte myByte = (byte)myString;
 
@@ -28,7 +35,11 @@ namespace _3CastingAndConversion
             int intMoney = (int)myMoney2; //Value is now 5; the .87 was lost
             Console.WriteLine(intMoney);
 
+            //Because of this, we must be careful when casting more-precise types
+            //(e.g. double, float, decimal) to less-precise types (e.g. int, long, short, etc.)
+
             //CONVERSION
+
             //A conversion is similar to a cast in that it takes a value and 
             //converts it from one type to another. However, conversion is generally
             //more forgiving than casting.
@@ -55,7 +66,7 @@ namespace _3CastingAndConversion
             bool isTrue = Convert.ToBoolean(intTrue); //Value is true because number is not 0
             Console.WriteLine(isTrue);
 
-            //PARSING
+            //PARSE() AND TRYPARSE()
             //The string type, being a reference type, needs to be converted
             //in a special manner; we call this *parsing*.
 
@@ -103,13 +114,13 @@ namespace _3CastingAndConversion
             var myClass = new ClassA(); //ClassA and ClassB defined in Classes.cs file
             //var newClass = myClass as ClassB; //Comment this line to avoid an exception.
 
-            //GetType() and typeof
+            //GETTYPE() AND TYPEOF
             //For any object in C#, we can get its type by calling the GetType() method.
             var sentence = "This is a sentence.";
             var type = sentence.GetType();
             Console.WriteLine(type); //Output: System.String
 
-            //We can also check if an object is of a known type
+            //We can also check if an object is of a known type using the *typeof* keyword.
             if (type == typeof(string)) 
             {
                 Console.WriteLine("Type is string!");

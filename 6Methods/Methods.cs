@@ -6,6 +6,7 @@ namespace _6Methods
 {
     public class Methods
     {
+        //START HERE
         //A *method* in C# is a block of code that will be executed when
         //some other code calls, or *invokes*, it. 
 
@@ -28,6 +29,7 @@ namespace _6Methods
         //5. Everything between the { and } will be executed when the method is invoked.
 
         //VOID METHODS
+
         //Methods can also use the special return type *void*, which tells the C# compiler
         //that this method will not return anything.
         public void DoSomething() 

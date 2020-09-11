@@ -7,6 +7,7 @@ namespace _12ExceptionHandling
         static void Main(string[] args)
         {
             //EXCEPTIONS
+
             //In C#, an "exception" is an error encountered while the program is running.
             //All exceptions inherit from System.Exception
             //When an exception happens, we say it is "thrown" by the program.
@@ -20,6 +21,7 @@ namespace _12ExceptionHandling
             //int result = two / zero; //Throws System.DivideByZeroException
 
             //UNDERSTANDING EXCEPTIONS
+
             //Let's create a new instance of System.Exception
             var myException = new Exception();
 
@@ -36,6 +38,7 @@ namespace _12ExceptionHandling
             //We use these properties to debug the exception and fix the code that threw it.
 
             //HANDLING THROWN EXCEPTIONS
+
             //When we have a code block that we think might throw an exception,
             //we can handle it by wrapping that code in a *try* block.
             //We can also use a *catch* block to process any thrown exceptions.
@@ -79,8 +82,9 @@ namespace _12ExceptionHandling
             //However, that doesn't mean we never do this. We just need to do it with
             //full knowledge of the potential problems.
 
-            //MULTIPLE CATCHES
-            //We can use multiple *catch* statements to catch specific exceptions.
+            //MULTIPLE CATCH BLOCKS
+
+            //We can use multiple *catch* blocks to catch specific exceptions.
             //The most-specific exceptions are listed first, and the least-specific are listed last.
             try
             {
@@ -100,6 +104,7 @@ namespace _12ExceptionHandling
             }
 
             //FINALLY BLOCKS
+
             //In addition to *try* blocks and *catch* blocks, C# also allows us to have
             //a *finally* block. Code in this block is executed whether or not an
             //exception is thrown.
@@ -145,6 +150,7 @@ namespace _12ExceptionHandling
             }
 
             //THROWING EXCEPTIONS
+
             //We can manually throw exceptions using the *throw* keyword.
             bool someCondition = true;
             if (someCondition)
@@ -161,6 +167,7 @@ namespace _12ExceptionHandling
             //Check out the MyErrorLogger.cs class for another common example.
 
             //CUSTOM EXCEPTIONS
+
             //We can also create custom exception classes. Check out the CustomException.cs file
             //for more.
 
@@ -170,6 +177,7 @@ namespace _12ExceptionHandling
             //throw new CustomException("This is a custom exception message.");
 
             //RE-THROWING EXCEPTIONS
+
             //There are occasions when we want to throw an exception that has already been
             //caught in a *catch* block. 
             //There are two ways to do this. The first is to simply use the *throw* keyword

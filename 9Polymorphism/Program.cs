@@ -3,6 +3,7 @@
 namespace _9Polymorphism
 {
     //POLYMORPHISM
+
     //Polymorphism, along with encapsulation and inheritance, form the
     //three main "pillars" or characteristics of object-oriented programming.
 
@@ -23,8 +24,6 @@ namespace _9Polymorphism
         public string OrderType { get; set; } //Old world or New world
     }
     //We also have the static method GetAnimalDetails, which is defined in StaticMethods.cs
-
-
 
     class Program
     {
@@ -58,6 +57,7 @@ namespace _9Polymorphism
             Console.WriteLine(porcupineDetails);
 
             //VIRTUAL METHODS
+
             //The classes for this section are defined near the end of this file.
 
             var myFox = new Fox();
@@ -68,6 +68,8 @@ namespace _9Polymorphism
             myAnteater.Eat("ants"); //Output: "Swallowing ants"
 
             //STOPPING VIRTUAL INHERITANCE
+
+            //The classes used in this example are defined later in this file.
             A myA = new A();
             myA.GetDetails();
 
@@ -100,6 +102,7 @@ namespace _9Polymorphism
     }
 
     //VIRTUAL METHODS
+
     //We can work with polymorphism by implementing virtual methods.
     //Virtual methods define a behavior on a base class, but allow
     //for that behavior to be overridden by derived classes.
@@ -130,6 +133,7 @@ namespace _9Polymorphism
     }
 
     //VIRTUAL PROPERTIES
+
     //We can also have properties defined on the base class that can be
     //overridden on derived classes.
     //Virtual methods and virtual properties allow developers to 
@@ -151,6 +155,7 @@ namespace _9Polymorphism
     }
 
     //STOPPING VIRTUAL INHERITANCE
+
     //It is possible to prevent a derived class from overriding a virtual method or property.
     //Let's see a simple base and derived class.
     public class A

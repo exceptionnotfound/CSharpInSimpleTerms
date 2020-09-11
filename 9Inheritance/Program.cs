@@ -3,6 +3,7 @@
 namespace _9Inheritance
 {
     //INHERITANCE
+
     //Inheritance allows a class to "inherit" or use the properties, methods,
     //and behavior defined by another class.
 
@@ -63,6 +64,7 @@ namespace _9Inheritance
     }
 
     //ACCESS MODIFIERS
+
     //As we learned in Part 7 - Classes, a C# class may have an access modifier (e.g. public, private, etc.)
     //Properties marked as private are not accessible in derived classes.
     public class Animal2
@@ -107,7 +109,9 @@ namespace _9Inheritance
     }
 
     //BASE CONSTRUCTORS
-    //If the base class has a constructor method, it can be called from the derived class's constructor
+
+    //If the base class has a constructor method, 
+    //it can be called from the derived class's constructor
     //using the base keyword.
     public class Animal4
     {
@@ -124,12 +128,14 @@ namespace _9Inheritance
     }
 
     //IMPLICIT INHERITANCE
+
     //Remember from Part 1 of this series that all C# objects must inherit from
     //the common base class System.Object. This means that they can also use
     //all methods defined on that class.
     public class Vegetable { } //We create an instance of Vegetable in the Main method below.
 
     //NO MULTIPLE INHERITANCE
+
     //C# does not permit a single class to inherit from multiple other classes.
     //However, there are other ways to share behavior, as we will see in Part 10.
 
@@ -138,6 +144,7 @@ namespace _9Inheritance
         static void Main(string[] args)
         {
             //ACCESS MODIFIERS
+
             //When we instantiate a Dodo, we cannot access the property SpeciesName, because it is private.
             //We also cannot access the property IsDomesticated, because it is protected.
             //We can only access IsExtinct, because that property is public.
@@ -145,6 +152,7 @@ namespace _9Inheritance
             dodo.IsExtinct = true;
 
             //IMPLICIT INHERITANCE
+
             //When we create a Vegetable, remember that Vegetable has no members.
             //And yet, it can still use all the members defined on System.Object.
             Vegetable myVegetable = new Vegetable();

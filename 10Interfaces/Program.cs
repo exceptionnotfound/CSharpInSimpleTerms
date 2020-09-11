@@ -3,6 +3,7 @@
 namespace _10Interfaces
 {
     //INTERFACES
+
     //Interfaces are special objects in C# that define a set of related
     //functionalities which may include methods or properties.
     //Think of interfaces as a *contract*, because when a C# class
@@ -62,6 +63,7 @@ namespace _10Interfaces
 
 
     //INTERFACE INHERITANCE
+
     //An interface can inherit, but only from other interfaces.
     //A single interface may inherit from as many other interfaces as it needs.
     public interface IMovement

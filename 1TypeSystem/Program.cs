@@ -6,6 +6,8 @@ namespace _1TypeSystem
     {
         static void Main(string[] args)
         {
+            //THE TYPE SYSTEM
+
             //A type in C# is a specific set of properties about a kind of object.
             //For example, int is a type representing integers
 
@@ -14,8 +16,10 @@ namespace _1TypeSystem
             //Int values must be in the range -2^32 to (2^32 - 1); we know this 
             //because the int type defines it.
 
-            //C# is a *strongly-typed* language. That means that every single object
-            //MUST have a type.
+            //STRONGLY-TYPED AND TYPE-SAFE
+
+            //C# is a *strongly-typed* language. That means that every single instance of
+            //an object MUST have a type.
 
             char a = 'a'; //char type
             decimal fivePointTwo = 5.2M; //decimal type
@@ -31,9 +35,13 @@ namespace _1TypeSystem
             //Uncomment the below line to get a compilation error.
             //int ten = five + "five";
 
+            //SYSTEM.OBJECT
+
             //Since no object can exist without a type, C# includes a "base" type
             System.Object myObject2 = new System.Object();
             object myObject3 = new object();
+
+            //VALUE TYPES AND REFERENCE TYPES
 
             //C# supports both *value types* and *reference types*
             //Value types have their value passed along with their instance.
@@ -49,6 +57,8 @@ namespace _1TypeSystem
             Array[] myArray = new Array[5];
             MyClass myClass2 = new MyClass();
 
+            //IMPLICIT TYPES (VAR)
+
             //C# supports the var keyword to allow us to use implicit types.
             //The type is inferred by the value of the object.
             var one = 1;
@@ -56,6 +66,8 @@ namespace _1TypeSystem
             var myChar = 'l';
             var myArray2 = new Array[7];
             var myClass3 = new MyClass();
+
+            //NULL
 
             //When using reference types, it is possible for there to not be a value
             //at the location referenced. When this happens, the value is said to be null.

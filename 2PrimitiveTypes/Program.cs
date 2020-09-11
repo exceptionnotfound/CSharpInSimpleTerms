@@ -6,6 +6,12 @@ namespace _2PrimitiveTypes
     {
         static void Main(string[] args)
         {
+            //PRIMITIVE TYPES
+            //"Primitive" types in C# are types that are so common that the language itself
+            //supports them. They include number and non-number types.
+
+            //NUMBER TYPES
+
             //The most basic of the primitive types in C# are the integral numeric types.
             //These types represent whole numbers.
 
@@ -15,7 +21,7 @@ namespace _2PrimitiveTypes
             byte eight = 8;
 
             //Of the integral numeric types, int is the default and most basic.
-            //It represents a 32-bit integer.
+            //A int represents a 32-bit integer.
             int five = 5;
             int thirteenHundred = 1300;
             int negativeForty = -40;
@@ -37,15 +43,17 @@ namespace _2PrimitiveTypes
 
             //Integral types are normally signed, meaning they can represent
             //both positive and negative values.
-            //The execption is byte; it is unsigned and can only represent positive values.
+            //The exception is byte; it is unsigned and can only represent positive values.
 
             //If we want to have unsigned integral types, we can use their unsigned equivalents.
             ushort unsignedShortMax = 65535;
             uint unsignedIntMax = 4294967295;
             ulong unsignedLongMax = 18446744073709551615;
 
-            //We can also represent a *signed* byte
+            //We can also represent a signed byte
             sbyte signedByteMin = -127;
+
+            //FLOATING-POINT NUMERIC TYPES
 
             //Floating-point numbers represent non-whole numbers.
             //They are used to do more complex math calculations.
@@ -87,7 +95,9 @@ namespace _2PrimitiveTypes
             var result2 = myShort + myMoney;
             Console.WriteLine(myShort + " + " + myMoney + " = " + result2);
 
-            //We can use bool to represent a true or false value
+            //NON-NUMBER TYPES
+
+            //We can use bool to represent a value that must be true or false.
             bool isTrue = true;
             bool isFalse = false;
             bool myBool; //Default is false
@@ -104,8 +114,12 @@ namespace _2PrimitiveTypes
             //Unlike the other primitive types, string is a reference type.
             string sentence = "This is a sentence.";
             string otherSentence = "This is another sentence.";
+            string isNull; //Because string is a reference type, if we do
+                           //not give it a value at instantiation, its value
+                           //will be null.
 
             //LITERAL VALUES
+
             //In C#, if we write this code:
             var myValue = 7.8;
 
@@ -124,6 +138,7 @@ namespace _2PrimitiveTypes
             var myUnsignedInt = 98765U; //Type uint, will be type ulong if the value is too large
 
             //NULLABLE VALUES
+
             //We can declare a nullable variable by using the ? operator.
             char? c = null;
             double? myDouble4; //Value will be null
@@ -136,6 +151,7 @@ namespace _2PrimitiveTypes
             int? myNullableInt2;
 
             //We can only use nullable on value types; reference types can already be null.
+
             //Uncomment the below line to get an error.
             //string? myNullableString = "This will not work.";
 

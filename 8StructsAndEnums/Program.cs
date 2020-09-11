@@ -9,6 +9,7 @@ namespace _8StructsAndEnums
         public static void Main(string[] args)
         {
             //STRUCTS
+
             //All structs used in this application are defined in the Structs.cs file
 
             //Structure types (or structs) are small, focused collections of properties.
@@ -60,6 +61,7 @@ namespace _8StructsAndEnums
             //readonlyPlayer.Name = "Different Name";
 
             //ENUMERATIONS
+
             //Enumerations are integer values that have been assigned a name.
             //We typically use them to represent values and to eliminate magic numbers.
             //See the Enums.cs file for more.
