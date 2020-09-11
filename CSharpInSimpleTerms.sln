@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6Methods", "6Methods\6Metho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7Classes", "7Classes\7Classes.csproj", "{62E32960-AA26-45B4-BFA4-AE0EEDC4C7EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9Inheritance", "9InheritanceAndPolymorphism\9Inheritance.csproj", "{D2C8CBE4-80C0-486C-BAC4-0E672032BA03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9Inheritance", "9Inheritance\9Inheritance.csproj", "{D2C8CBE4-80C0-486C-BAC4-0E672032BA03}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9Polymorphism", "9Polymorphism\9Polymorphism.csproj", "{D6C72160-C292-4453-BD91-BDC3AD66613A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10Interfaces", "10InterfacesAndAbstractClasses\10Interfaces.csproj", "{BBD41A76-EC54-4CDD-9A3A-254B33EBA09D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10Interfaces", "10Interfaces\10Interfaces.csproj", "{BBD41A76-EC54-4CDD-9A3A-254B33EBA09D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10AbstractClasses", "10AbstractClasses\10AbstractClasses.csproj", "{CD3E803D-99B7-44F7-B81C-37AA6DA949B0}"
 EndProject

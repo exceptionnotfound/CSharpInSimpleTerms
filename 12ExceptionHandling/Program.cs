@@ -11,7 +11,6 @@ namespace _12ExceptionHandling
             //All exceptions inherit from System.Exception
             //When an exception happens, we say it is "thrown" by the program.
 
-
             //C# includes a huge variety of built-in exceptions.
             //For example, if we attempt to divide by zero, we will get a DivideByZeroException thrown.
             int zero = 0;
