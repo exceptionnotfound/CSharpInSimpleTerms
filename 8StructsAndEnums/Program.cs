@@ -9,6 +9,7 @@ namespace _8StructsAndEnums
         public static void Main(string[] args)
         {
             //STRUCTS
+            Console.WriteLine("-------------Structs---------------");
 
             //All structs used in this application are defined in the Structs.cs file
 
@@ -17,7 +18,7 @@ namespace _8StructsAndEnums
             //In that way, they are similar to classes.
             //However, structs cannot have a parameterless constructor, and they do not
             //support inheritance.
-            
+
             var player = new Player();
             player.Name = "Alex Hampton";
             player.YearsPlaying = 2;
@@ -61,6 +62,7 @@ namespace _8StructsAndEnums
             //readonlyPlayer.Name = "Different Name";
 
             //ENUMERATIONS
+            Console.WriteLine("-------------Enumerations---------------");
 
             //Enumerations are integer values that have been assigned a name.
             //We typically use them to represent values and to eliminate magic numbers.

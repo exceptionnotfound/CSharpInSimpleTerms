@@ -54,6 +54,7 @@ namespace _2PrimitiveTypes
             sbyte signedByteMin = -127;
 
             //FLOATING-POINT NUMERIC TYPES
+            Console.WriteLine("---------------------Floating-Point Numeric Types-----------------------");
 
             //Floating-point numbers represent non-whole numbers.
             //They are used to do more complex math calculations.
@@ -96,6 +97,7 @@ namespace _2PrimitiveTypes
             Console.WriteLine(myShort + " + " + myMoney + " = " + result2);
 
             //NON-NUMBER TYPES
+            Console.WriteLine("---------------------Non-Number Types-----------------------");
 
             //We can use bool to represent a value that must be true or false.
             bool isTrue = true;

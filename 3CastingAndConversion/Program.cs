@@ -7,6 +7,7 @@ namespace _3CastingAndConversion
         static void Main(string[] args)
         {
             //CASTING
+            Console.WriteLine("---------------------Casting-----------------------");
 
             //"Casting" is the act of taking a value of one type and attempting
             //to "force" that value to be another type. 
@@ -39,6 +40,7 @@ namespace _3CastingAndConversion
             //(e.g. double, float, decimal) to less-precise types (e.g. int, long, short, etc.)
 
             //CONVERSION
+            Console.WriteLine("---------------------Conversion-----------------------");
 
             //A conversion is similar to a cast in that it takes a value and 
             //converts it from one type to another. However, conversion is generally
@@ -67,6 +69,7 @@ namespace _3CastingAndConversion
             Console.WriteLine(isTrue);
 
             //PARSE() AND TRYPARSE()
+            Console.WriteLine("---------------------Parse() and TryParse()-----------------------");
             //The string type, being a reference type, needs to be converted
             //in a special manner; we call this *parsing*.
 
@@ -92,6 +95,7 @@ namespace _3CastingAndConversion
             //If isValid is true, the string was successfully parsed.
 
             //IS KEYWORD
+            Console.WriteLine("---------------------is Keyword-----------------------");
             //Sometimes, we don't know the type of a given object.
             //C# provides the is keyword to test if an object is of a specified type.
             var myUnknownValue = 6.5M; //M literal means type will be decimal
@@ -100,6 +104,7 @@ namespace _3CastingAndConversion
             }
 
             //AS KEYWORD
+            Console.WriteLine("---------------------as Keyword-----------------------");
             //For reference types (e.g. string, classes, etc.) C# provides us with the
             //as keyword to convert one reference type to another.
             string testString2 = "This is a test"; //string is a reference type
@@ -115,6 +120,7 @@ namespace _3CastingAndConversion
             //var newClass = myClass as ClassB; //Comment this line to avoid an exception.
 
             //GETTYPE() AND TYPEOF
+            Console.WriteLine("---------------------GetType() and typeof-----------------------");
             //For any object in C#, we can get its type by calling the GetType() method.
             var sentence = "This is a sentence.";
             var type = sentence.GetType();
@@ -129,7 +135,6 @@ namespace _3CastingAndConversion
             {
                 Console.WriteLine("Type is int!");
             }
-
         }
     }
 }

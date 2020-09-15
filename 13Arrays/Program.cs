@@ -7,6 +7,7 @@ namespace _13Arrays
         static void Main(string[] args)
         {
             //ARRAYS
+            Console.WriteLine("-------------Arrays---------------");
 
             //An array is a collection of objects of the same type.
             //Each object in the array is called an "element".
@@ -55,8 +56,7 @@ namespace _13Arrays
 
             //RANGES
 
-            Console.WriteLine("RANGES");
-            Console.WriteLine();
+            Console.WriteLine("-------------Ranges---------------");
 
             //In C# 8.0, we now have a way to get a subset of an array.
             //This is called a Range.

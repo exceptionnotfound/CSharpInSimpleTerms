@@ -8,6 +8,7 @@ namespace _5BasicStatementsAndLoops
         static void Main(string[] args)
         {
             //CODE BLOCKS
+            Console.WriteLine("-------------Code Blocks---------------");
 
             //In C#, a code block is a collection of lines of code bounded by curly braces {}
             {
@@ -18,6 +19,7 @@ namespace _5BasicStatementsAndLoops
             //we use them as part of either selection statements or loops.
 
             //SELECTION STATEMENTS
+            Console.WriteLine("-------------Selection Statements---------------");
 
             //C# includes a number of keywords designed to help us decide where
             //the code execution flow should go next.
@@ -90,11 +92,13 @@ namespace _5BasicStatementsAndLoops
             Console.WriteLine($"The selected card color is {cardColor}");
 
             //LOOPS
+            Console.WriteLine("-------------Loops---------------");
 
             //Loops are code blocks that are executed multiple times in a row.
             //There are four ways to implement a loop.
 
             //FOR LOOPS
+            Console.WriteLine("-------------for loop---------------");
 
             //A basic FOR loop has three parts:
             //1. An initializer variable
@@ -115,6 +119,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //FOREACH LOOP
+            Console.WriteLine("-------------foreach Loop---------------");
 
             //When dealing with collections of objects (see project 13ArraysAndCollections)
             //we can execute some code against each item in a collection using a foreach loop.
@@ -143,6 +148,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //WHILE LOOP
+            Console.WriteLine("-------------while Loop---------------");
 
             //A while loop evaluates a condition, and so long as that condition
             //is true, it will continue executing the code in the loop.
@@ -162,6 +168,7 @@ namespace _5BasicStatementsAndLoops
             //}
 
             //DO WHILE LOOP
+            Console.WriteLine("-------------do while Loop---------------");
 
             //A do-while loop will always execute at least once, because
             //the condition is evaluated at the *end* of the loop
@@ -174,8 +181,10 @@ namespace _5BasicStatementsAndLoops
             } while (myVal < 1000);
 
             //BREAKING THE LOOP
+            Console.WriteLine("-------------Breaking the Loop---------------");
 
             //BREAK
+            Console.WriteLine("-------------break---------------");
 
             //The keyword 'break' will end the loop and no further iterations will be executed.
             for (int i = 0; i < 10; i++)
@@ -188,6 +197,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //CONTINUE
+            Console.WriteLine("-------------continue---------------");
 
             //The continue keyword will stop the current iteration of the loop,
             //but execution will resume at the next iteration.
@@ -207,6 +217,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //RETURN
+            Console.WriteLine("-------------return---------------");
 
             //The return keyword stops execution of the loop and will return a value
             //to the calling code.

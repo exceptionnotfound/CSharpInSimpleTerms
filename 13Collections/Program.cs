@@ -26,9 +26,7 @@ namespace _13Collections
             List<int> numbers = new List<int>();
             List<string> names = new List<string>();
 
-            Console.WriteLine();
             Console.WriteLine("---------------------Initializing List<T>----------------------");
-            Console.WriteLine();
 
             //Just like with arrays, we can initialize a List<T> by giving its elements.
             List<int> years = new List<int> { 2020, 2019, 2018, 2017, 2016 };
@@ -40,18 +38,14 @@ namespace _13Collections
                 Console.WriteLine(year.ToString());
             }
 
-            Console.WriteLine();
             Console.WriteLine("---------------------Array-Style Indexing----------------------");
-            Console.WriteLine();
 
             //We can also access individual elements using array-style indexing.
             List<string> daysOfTheWeek = new List<string> { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
 
             Console.WriteLine(daysOfTheWeek[3]); //"Thu"
 
-            Console.WriteLine();
             Console.WriteLine("---------------------Add() Method----------------------");
-            Console.WriteLine();
 
             //Finally, we can add elements to a List<T> using the Add method.
             List<string> daysOfTheWeek2 = new List<string>();
@@ -70,9 +64,7 @@ namespace _13Collections
 
             //METHODS
 
-            Console.WriteLine();
             Console.WriteLine("---------------------List Methods----------------------");
-            Console.WriteLine();
 
             //C# provides us with many methods on the List<T> type to help us manipulate the collection.
 
@@ -103,9 +95,7 @@ namespace _13Collections
 
             //COMBINING LISTS
 
-            Console.WriteLine();
             Console.WriteLine("---------------------Combining Lists----------------------");
-            Console.WriteLine();
 
             //It's also possible to combine two collections into a single collection.
             //We do this using the AddRange method.
@@ -121,9 +111,7 @@ namespace _13Collections
 
             //DICTIONARY<TKEY, TVALUE>
 
-            Console.WriteLine();
             Console.WriteLine("---------------------Dictionary<TKey, TValue>----------------------");
-            Console.WriteLine();
 
             //A Dictionary<TKey, TValue> is a set of values, where each value has a unique key.
             Dictionary<string, string> imageTypes = new Dictionary<string, string>();
@@ -148,9 +136,7 @@ namespace _13Collections
 
             //QUEUE<T>
 
-            Console.WriteLine();
             Console.WriteLine("---------------------Queue<T>----------------------");
-            Console.WriteLine();
 
             //A queue is an ordered collection with a first-in, first-out style. 
             //Elements are "enqueued" and "dequeued" to be added into and out of the collection, respectively.
@@ -165,9 +151,7 @@ namespace _13Collections
 
             //STACK<T>
 
-            Console.WriteLine();
             Console.WriteLine("---------------------Stack<T>----------------------");
-            Console.WriteLine();
 
             //A stack is a collection of elements with a last-in, first-out style.
             //So elements that were added to the collection first will be removed last.

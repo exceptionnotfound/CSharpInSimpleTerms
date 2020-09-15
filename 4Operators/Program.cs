@@ -18,8 +18,11 @@ namespace _4Operators
                                //which assigns the result of 5*5 to the variable total
 
             //ASSIGNMENT AND EQUALITY OPERATORS 
+            Console.WriteLine("-----------------Assignment and Equality Operators-------------------");
 
             //ASSIGNMENT (=)
+
+            Console.WriteLine("---------------------Assignment (=)-----------------------");
 
             //The assignment operator = assigns a value to a variable, property, etc.
             int year = 2020;
@@ -33,6 +36,7 @@ namespace _4Operators
             year1 = year2 = year3; //Will be evaluated as year1 = (year2 = year3)
 
             //EQUALITY (==)
+            Console.WriteLine("---------------------Equality (==)-----------------------");
 
             //The equality operator == returns a boolean value stating whether or not
             //two values are equal.
@@ -54,6 +58,7 @@ namespace _4Operators
             Console.WriteLine(myOtherClass == myThirdClass); //true
 
             //INEQUALITY (!=)
+            Console.WriteLine("---------------------Inequality (!=)-----------------------");
 
             //We can check if two values are not equal using the inequality operator !=
             var myMoney = 6.54M;
@@ -65,15 +70,18 @@ namespace _4Operators
 
             //When working with number types, we can increment or decrement
             //their value using the increment assignment operators += and -=
+            Console.WriteLine("---------------------Increment Assignment (+=)-----------------------");
             var i = 16;
             i += 5; 
             Console.WriteLine(i); //21
 
+            Console.WriteLine("---------------------Decrement Assignment (-=)-----------------------");
             var j = 61;
             j -= 15; 
             Console.WriteLine(j); //46
 
             //NULL-COALESCING ASSIGNMENT (??=)
+            Console.WriteLine("---------------------Null-Coalescing Assignment (??=)-----------------------");
 
             //There's also the null-coalescing assignment operator ??=, which assigns
             //the value to the left-hand operand if and only if the left-hand operand is null
@@ -94,6 +102,7 @@ namespace _4Operators
             //DIVISION (/)
 
             //The basic math operators +, -, *, / perform simple math operations
+            Console.WriteLine("---------------------Basic Math (+, -, *, /)-----------------------");
             var sum = 5 + 9; //14
             var difference = 56 - 14; //42
             var product = 6 * 6; //36
@@ -102,6 +111,7 @@ namespace _4Operators
             Console.WriteLine(sum + ", " + difference + ", " + product + ", " + quotient);
 
             //REMAINDER (%)
+            Console.WriteLine("---------------------Remainder (%)-----------------------");
 
             //The remainder operator % (AKA modulus) will output 
             //the remainder from a division operation.
@@ -111,6 +121,7 @@ namespace _4Operators
             //INCREMENT (++) AND DECREMENT (--)
             //The increment ++ and decrement -- operators change the value of
             //a numeric object by 1.
+            Console.WriteLine("-----------Increment (++) and Decrement (--)-------------");
             var value = 3;
             value++;
             Console.WriteLine(value); //4
@@ -132,6 +143,7 @@ namespace _4Operators
             Console.WriteLine(value); //4
 
             //ORDER OF OPERATIONS
+            Console.WriteLine("---------------------Order of Operations-----------------------");
             //Math operators follow an order of operations. 
             //First, increment and decrement
             //Then, multiple, divide, or remainder
@@ -148,10 +160,12 @@ namespace _4Operators
             Console.WriteLine(output4);
 
             //BOOLEAN LOGIC OPERATORS
+            Console.WriteLine("-----------------Boolean Logic Operators-------------------");
             //When dealing with boolean values, we use a set of operators
             //design to work on boolean logic.
 
             //Negation (!)
+            Console.WriteLine("---------------------Negation (!)-----------------------");
             var isTrue = true;
             Console.WriteLine(!isTrue); //false
 
@@ -162,6 +176,7 @@ namespace _4Operators
             }
 
             //Conditional Logical AND (&&)
+            Console.WriteLine("---------------Conditional Logical AND (&&)-----------------");
             //AND operations return TRUE if both operands are TRUE; otherwise, they return FALSE
             //The conditional logical AND will evaluate the first operand; if it is FALSE, it returns FALSE
             //WITHOUT evaluating the second operand.
@@ -176,6 +191,7 @@ namespace _4Operators
             Console.WriteLine(isStillValidCustomer);
 
             //Conditional Logical OR (||)
+            Console.WriteLine("---------------Conditional Logical OR (||)-----------------");
             //Logical OR operations return TRUE if one or more of the operands is TRUE.
             //If all operands are FALSE, logical OR will return FALSE.
             var hasPhone = false;
@@ -187,6 +203,7 @@ namespace _4Operators
             Console.WriteLine(areYouSure);
 
             //Logical AND (&)
+            Console.WriteLine("---------------------Logical AND (&)-----------------------");
             //This operator will always evaluate both operands.
             var hasLastName = true;
             var hasFirstName = false;
@@ -195,6 +212,7 @@ namespace _4Operators
             Console.WriteLine(hasCompleteName);
 
             //Logical OR (|)
+            Console.WriteLine("---------------------Logical OR (|)-----------------------");
             //This operator will always evaluate both operands.
             hasLastName = true;
             hasFirstName = false;
@@ -202,6 +220,7 @@ namespace _4Operators
             var hasAnyName = hasFirstName | hasLastName; //true
 
             //Logical Exclusive OR (^)
+            Console.WriteLine("------------------Logical Exclusive-OR (^)--------------------");
             //An exclusive-OR operation returns true if and only if one operand is true and one operand is false.
             //If both operands are true or both operands are false, exclusive-OR returns false.
             var isXOR = true ^ true; //false
@@ -214,13 +233,16 @@ namespace _4Operators
             Console.WriteLine(isXOR);
 
             //Boolean logic operators execute in this order: !, &, ^, |, &&, ||
+            Console.WriteLine("-----------Boolean Logic Order of Operations-------------");
             var isTest = true ^ false & true; //Same as true ^ (false & true), result true
             Console.WriteLine(isTest);
             var isOtherTest = false || (false ^ true && true); //true
             Console.WriteLine(isOtherTest);
 
             //COMPARISON OPERATORS 
+            Console.WriteLine("---------------------Comparison Operators-----------------------");
             //Less Than (<) and Less Than Or Equal To (<=)
+            Console.WriteLine("---------Less Than (<) and Less Than Or Equal To (<=)-----------");
             bool isLessThan = 7 < 9; //true
             Console.WriteLine(isLessThan);
             isLessThan = 9 < 7; //false
@@ -232,6 +254,7 @@ namespace _4Operators
             Console.WriteLine(isLessThanOrEqual);
 
             //Greater Than (>) and Greater Than Or Equal (>=)
+            Console.WriteLine("---------Greater Than (>) and Greater Than Or Equal To (>=)-----------");
             bool isGreaterThan = 18 > 15; //true
             Console.WriteLine(isGreaterThan);
             isGreaterThan = -7 > -10; //true
@@ -242,6 +265,7 @@ namespace _4Operators
             Console.WriteLine(isLarge);
 
             //CONDITIONAL OPERATOR (?:)
+            Console.WriteLine("-------------Conditional (?:)---------------");
             //The conditional operator ?: returns one of two values based on
             //whether a given expression is true or false.
             isTrue = true;
@@ -265,6 +289,7 @@ namespace _4Operators
             Console.WriteLine(message); //"Thanks for calling!"
 
             //NULL-COALESCING OPERATOR (??)
+            Console.WriteLine("-------------Null-Coalescing (??)---------------");
             //The null coalescing operator ??  returns the value of the 
             //left-hand operand if that value is not null; otherwise, 
             //it evaluates the right-hand operand and returns that.

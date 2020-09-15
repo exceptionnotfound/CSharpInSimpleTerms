@@ -53,6 +53,7 @@ namespace _10AbstractClasses
 
     //If our derived class does not implement an abstract method, we get
     //a compilation error.
+
     //Uncomment the below class to see this.
     //public class Peridot : Gem { }
 
