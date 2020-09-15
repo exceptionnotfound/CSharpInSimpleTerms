@@ -175,6 +175,18 @@ namespace _2PrimitiveTypes
                                                            //since myValue2 is null
             }
 
+            //DATETIME
+
+            //The type DateTime represents a point in time, typically expressed
+            //as a date and a time.
+            DateTime date1 = new DateTime();
+            DateTime date2 = new DateTime(2020, 3, 15); //15 March 2020
+            DateTime date3 = new DateTime(2020, 3, 15, 10, 30, 00); //15 March 2020, 10:30 AM
+
+            Console.WriteLine(date1);
+            Console.WriteLine(date2);
+            Console.WriteLine(date3);
+
             Console.ReadLine();
         }
     }
