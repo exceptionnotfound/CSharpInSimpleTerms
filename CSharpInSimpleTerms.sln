@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13Arrays", "13Arrays\13Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13Collections", "13Collections\13Collections.csproj", "{48CA38CD-45B8-4962-AD56-B2E01B1CC642}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14LINQBasics", "14LINQBasics\14LINQBasics.csproj", "{578F876A-1C2B-42BE-B9EF-BF6E491B9526}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{48CA38CD-45B8-4962-AD56-B2E01B1CC642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48CA38CD-45B8-4962-AD56-B2E01B1CC642}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48CA38CD-45B8-4962-AD56-B2E01B1CC642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578F876A-1C2B-42BE-B9EF-BF6E491B9526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578F876A-1C2B-42BE-B9EF-BF6E491B9526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578F876A-1C2B-42BE-B9EF-BF6E491B9526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578F876A-1C2B-42BE-B9EF-BF6E491B9526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
