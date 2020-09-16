@@ -26,6 +26,7 @@ namespace _15Generics
 
 
             //RESUME
+            Console.WriteLine("--------------------StackQueue<T>---------------------");
             //Because StackQueue is a generic class, we defer specifying the type
             //until an instance of it is created.
             var myStackQueue = new StackQueue<int>(); //T is now int
@@ -35,8 +36,8 @@ namespace _15Generics
             myStackQueue.Push(3);
             myStackQueue.Enqueue(4); //At this point, the collection is { 3, 2, 1, 4 }
 
-            Console.WriteLine(myStackQueue.Pop()); //3
-            Console.WriteLine(myStackQueue.Pop()); //2
+            myStackQueue.Pop(); //3
+            myStackQueue.Pop(); //2
 
             //We will get a build error if we attempt to push or enqueue
             //an object that is not of the type the StackQueue instance wants.
@@ -45,6 +46,7 @@ namespace _15Generics
             //myStackQueue.Push("a string");
 
             //GO TO SwapMethods.cs to continue this lesson.
+            Console.WriteLine("--------------------Swapping---------------------");
 
             int a = 5;
             int b = 3;

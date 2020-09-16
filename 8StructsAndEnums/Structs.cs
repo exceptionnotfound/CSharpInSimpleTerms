@@ -11,6 +11,7 @@ namespace _8StructsAndEnums
 
         public Player(string name, int yearsPlaying)
         {
+            Console.WriteLine("Constructor for Player struct was invoked!");
             Name = name;
             YearsPlaying = yearsPlaying;
         }
@@ -29,6 +30,7 @@ namespace _8StructsAndEnums
 
         public Coach3(string name, int years)
         {
+            Console.WriteLine("Constructor for Coach3 struct was invoked!");
             Name = name;
             YearsCoaching = years;
         }
@@ -41,6 +43,7 @@ namespace _8StructsAndEnums
 
         public ReadonlyPlayer(string name, int turnOrder)
         {
+            Console.WriteLine("Constructor for ReadonlyPlayer was invoked!");
             Name = name;
             TurnOrder = turnOrder;
         }

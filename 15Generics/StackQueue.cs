@@ -26,12 +26,14 @@ namespace _15Generics
         //Insert at "back of line" or bottom of list
         public void Enqueue(T item)
         {
+            Console.WriteLine("Queueing " + item.ToString());
             elements.Insert(elements.Count, item);
         }
 
         //Insert at "front of line" or top of list
         public void Push(T item)
         {
+            Console.WriteLine("Pushing " + item.ToString());
             elements.Insert(0, item);
         }
 
@@ -41,6 +43,7 @@ namespace _15Generics
         public T Pop()
         {
             var element = elements[0];
+            Console.WriteLine("Popping " + element.ToString());
             elements.RemoveAt(0);
             return element;
         }

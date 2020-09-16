@@ -14,12 +14,15 @@ namespace _3CastingAndConversion
             //We cast a variable to another type by putting the desired type in ()
             int five = 5;
             var doubleFive = (double)five;
+            Console.WriteLine(doubleFive);
 
             char a = 'a';
             var valueA = (int)a;
+            Console.WriteLine(valueA);
 
             float myFloat = 4.56F;
             decimal myMoney = (decimal)myFloat;
+            Console.WriteLine(myMoney);
 
             //This will work, provided the value in the original type is also
             //a valid value in the new type.
@@ -81,10 +84,10 @@ namespace _3CastingAndConversion
             //However, if the string cannot be parsed to the desired type
             //an exception will be thrown.
             string testString = "10.22.2000";
-            //double decValue2 = double.Parse(testString); //Comment out this line to avoid an exception.
+            //double decValue2 = double.Parse(testString); //Uncomment this line to get an exception.
 
             string intTest = "This is a test string";
-            //int intValue = int.Parse(intTest); //Comment out this line to avoid an exception.
+            //int intValue = int.Parse(intTest); //Uncomment this line to get an exception.
 
             //For situations in which is it possible for the string to not have a value
             //that is parsable, we can use the TryParse() method.
@@ -117,7 +120,7 @@ namespace _3CastingAndConversion
             //if a valid conversion does not exist we get an error.
 
             var myClass = new ClassA(); //ClassA and ClassB defined in Classes.cs file
-            //var newClass = myClass as ClassB; //Comment this line to avoid an exception.
+            //var newClass = myClass as ClassB; //Uncomment this line to get an exception.
 
             //GETTYPE() AND TYPEOF
             Console.WriteLine("---------------------GetType() and typeof-----------------------");

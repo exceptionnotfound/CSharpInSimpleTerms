@@ -23,14 +23,16 @@ namespace _12ExceptionHandling
             //UNDERSTANDING EXCEPTIONS
 
             //Let's create a new instance of System.Exception
-            var myException = new Exception();
+            var myException = new Exception("This is a test message");
 
             //C# populates exceptions, when they are thrown, with a bunch of useful information.
             //For example, the error message...
             var errorMessage = myException.Message;
+            Console.WriteLine(errorMessage);
 
             //...the stack trace...
             var stackTrace = myException.StackTrace;
+            Console.WriteLine(stackTrace);
 
             //...and any inner exceptions that might exist.
             var innerException = myException.InnerException;

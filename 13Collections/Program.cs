@@ -146,8 +146,8 @@ namespace _13Collections
             orders.Enqueue(3);
             orders.Enqueue(4);
 
-            Console.WriteLine(orders.Dequeue()); //1
-            Console.WriteLine(orders.Dequeue()); //2
+            Console.WriteLine("First Dequeue: " + orders.Dequeue()); //1
+            Console.WriteLine("Second Dequeue: " + orders.Dequeue()); //2
 
             //STACK<T>
 
@@ -162,8 +162,8 @@ namespace _13Collections
             elements.Push(3);
             elements.Push(4);
 
-            Console.WriteLine(elements.Pop()); //4
-            Console.WriteLine(elements.Pop()); //3
+            Console.WriteLine("First Pop: " + elements.Pop()); //4
+            Console.WriteLine("Second Pop: " + elements.Pop()); //3
         }
     }
 }

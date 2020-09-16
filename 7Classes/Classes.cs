@@ -177,16 +177,19 @@ namespace _7Classes
 
         public ClassF(int param1)
         {
+            Console.WriteLine("Constructor #1 for ClassF was invoked!");
             Property2 = param1;
         }
 
         public ClassF(string param1)
         {
+            Console.WriteLine("Constructor #2 for ClassF was invoked!");
             Property1 = param1;
         }
 
         public ClassF(string param1, int param2)
         {
+            Console.WriteLine("Constructor #3 for ClassF was invoked!");
             Property1 = param1;
             Property2 = param2;
         }
@@ -212,7 +215,10 @@ namespace _7Classes
         public string Property1 { get; set; }
         public int Property2 { get; set; }
 
-        public ClassH() { /* Public parameterless constructor */ }
+        public ClassH() 
+        {
+            Console.WriteLine("Public parameterless constructor for ClassH was invoked!");
+        }
     }
 
 

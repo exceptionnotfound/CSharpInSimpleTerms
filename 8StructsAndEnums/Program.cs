@@ -69,7 +69,7 @@ namespace _8StructsAndEnums
             //See the Enums.cs file for more.
 
             //We don't want to do this:
-            var color = 1; //What does 1 mean?
+            var color = 1; //What does 1 mean? We do not know.
 
             //Rather, we can impart a meaning on our variable by using an enumeration.
             var myColor = Color.Red;
@@ -94,12 +94,13 @@ namespace _8StructsAndEnums
                                     | Months.November;
             Console.WriteLine($"Your family has birthdays in {birthdayMonths}");
 
+            //Using the logical AND operator &, we can show the items that are in both groups.
             Months otherBirthdays = Months.January
                         | Months.April
                         | Months.September;
 
             Console.WriteLine($"The months in both groups are {birthdayMonths & otherBirthdays}");
-            //Output: The months in both groups are January, July
+            //Output: The months in both groups are January, September
         }
     }
 }

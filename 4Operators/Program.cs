@@ -16,6 +16,7 @@ namespace _4Operators
                                //which takes 5 and 5 as inputs
                                //and the = (assignment) operator 
                                //which assigns the result of 5*5 to the variable total
+            Console.WriteLine(total);
 
             //ASSIGNMENT AND EQUALITY OPERATORS 
             Console.WriteLine("-----------------Assignment and Equality Operators-------------------");
@@ -34,6 +35,7 @@ namespace _4Operators
             int year3 = 2020;
 
             year1 = year2 = year3; //Will be evaluated as year1 = (year2 = year3)
+            Console.WriteLine("year2 is " + year2);
 
             //EQUALITY (==)
             Console.WriteLine("---------------------Equality (==)-----------------------");
@@ -104,11 +106,13 @@ namespace _4Operators
             //The basic math operators +, -, *, / perform simple math operations
             Console.WriteLine("---------------------Basic Math (+, -, *, /)-----------------------");
             var sum = 5 + 9; //14
+            Console.WriteLine("Sum: " + sum);
             var difference = 56 - 14; //42
+            Console.WriteLine("Difference: " + difference);
             var product = 6 * 6; //36
+            Console.WriteLine("Product: " + product);
             var quotient = 42 / 7; //6
-
-            Console.WriteLine(sum + ", " + difference + ", " + product + ", " + quotient);
+            Console.WriteLine("Quotient: " + quotient);
 
             //REMAINDER (%)
             Console.WriteLine("---------------------Remainder (%)-----------------------");
@@ -131,6 +135,7 @@ namespace _4Operators
             //Postfixed increment operators show the value *before* the operation occurs
             value = 3;
 
+            Console.WriteLine("-----------Postfixed Increment-------------");
             Console.WriteLine(value); //3
             Console.WriteLine(value++); //3
             Console.WriteLine(value); //4
@@ -138,6 +143,7 @@ namespace _4Operators
             //Prefixed increment operators show the value *after* the operation occurs
             value = 3;
 
+            Console.WriteLine("-----------Prefixed Increment-------------");
             Console.WriteLine(value); //3
             Console.WriteLine(++value); //4
             Console.WriteLine(value); //4
@@ -146,7 +152,7 @@ namespace _4Operators
             Console.WriteLine("---------------------Order of Operations-----------------------");
             //Math operators follow an order of operations. 
             //First, increment and decrement
-            //Then, multiple, divide, or remainder
+            //Then, multiply, divide, and remainder
             //Then addition or subtraction
 
             var output = 5 + 2 * 9; //Evaluated as 5 + (2 * 9) = 19

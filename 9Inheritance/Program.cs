@@ -118,6 +118,7 @@ namespace _9Inheritance
         public string SpeciesName { get; set; }
         public Animal4(string speciesName)
         {
+            Console.WriteLine("The species name is " + speciesName);
             SpeciesName = speciesName;
         }
     }
@@ -143,23 +144,41 @@ namespace _9Inheritance
     {
         static void Main(string[] args)
         {
-            //ACCESS MODIFIERS
+            Console.WriteLine("-----------------Basic Inheritance--------------------");
+            Dog dog = new Dog("Labrador Retriever");
+            dog.MakeSound();
 
+            Wolf wolf = new Wolf();
+            wolf.MakeSound();
+
+            //ACCESS MODIFIERS
+            Console.WriteLine("-----------------Access Modifiers--------------------");
             //When we instantiate a Dodo, we cannot access the property SpeciesName, because it is private.
             //We also cannot access the property IsDomesticated, because it is protected.
             //We can only access IsExtinct, because that property is public.
             var dodo = new Dodo();
             dodo.IsExtinct = true;
+            Console.WriteLine(dodo.IsExtinct);
+
+            //OVERRIDING MEMBERS
+            Console.WriteLine("------------------Overriding Members---------------------");
+            Tiger tiger = new Tiger();
+            tiger.MakeSound();
+            Hobbes hobbes = new Hobbes();
+            hobbes.MakeSound();
+
+            //BASE CONSTRUCTORS
+            Console.WriteLine("------------------Base Constructors----------------------");
+            BlueWhale blueWhale = new BlueWhale();
 
             //IMPLICIT INHERITANCE
-
+            Console.WriteLine("-----------------Implicit Inheritance--------------------");
             //When we create a Vegetable, remember that Vegetable has no members.
             //And yet, it can still use all the members defined on System.Object.
             Vegetable myVegetable = new Vegetable();
-            var stringDescription = myVegetable.ToString(); //Method implemented in System.Object
-            Console.WriteLine(stringDescription);
             var type = myVegetable.GetType(); //Method implemented in System.Object
             Console.WriteLine(type);
+            Console.WriteLine(myVegetable.GetHashCode()); //GetHashCode implemented in System.Object
         }
     }
 }

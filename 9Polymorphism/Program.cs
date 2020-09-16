@@ -50,6 +50,7 @@ namespace _9Polymorphism
             //If we pass these instances to the GetAnimalDetails method, it will treat
             //each of them as though they are instances of the Animal class.
             //This is because of Polymorphism.
+            Console.WriteLine("-----------------Basic Polymorphism--------------------");
             var elephantDetails = StaticMethods.GetAnimalDetails(myElephant);
             Console.WriteLine(elephantDetails);
 
@@ -57,6 +58,7 @@ namespace _9Polymorphism
             Console.WriteLine(porcupineDetails);
 
             //VIRTUAL METHODS
+            Console.WriteLine("-----------------Virtual Methods--------------------");
 
             //The classes for this section are defined near the end of this file.
 
@@ -68,6 +70,7 @@ namespace _9Polymorphism
             myAnteater.Eat("ants"); //Output: "Swallowing ants"
 
             //STOPPING VIRTUAL INHERITANCE
+            Console.WriteLine("-----------------Stopping Virtual Inheritance--------------------");
 
             //The classes used in this example are defined later in this file.
             A myA = new A();
@@ -83,6 +86,7 @@ namespace _9Polymorphism
             myE.GetDetails(); //Calls the implementation in E
 
             //FUN WITH POLYMORPHISM
+            Console.WriteLine("-----------------Fun with Polymorphism--------------------");
             var dolphin = new Dolphin()
             {
                 DolphinType = "Bottlenose"
@@ -198,7 +202,7 @@ namespace _9Polymorphism
     {
         public new void GetDetails()
         {
-            Console.WriteLine("E.GetDetails invoked!");
+            Console.WriteLine("E.GetDetails invoked! This is a new implementation.");
         }
     }
 

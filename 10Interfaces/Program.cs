@@ -26,7 +26,9 @@ namespace _10Interfaces
 
         public double GetArea()
         {
-            return Math.PI * (Radius * Radius);
+            var area = Math.PI * (Radius * Radius);
+            Console.WriteLine("Area of a circle is " + area);
+            return area;
         }
     }
 
@@ -37,7 +39,9 @@ namespace _10Interfaces
 
         public double GetArea()
         {
-            return Height * Width;
+            var area = Height * Width;
+            Console.WriteLine("Area of a rectangle is " + area);
+            return area;
         }
     }
 
@@ -48,7 +52,9 @@ namespace _10Interfaces
 
         public double GetArea()
         {
-            return Height * Width * 0.5;
+            var area = Height * Width * 0.5;
+            Console.WriteLine("Area of a triangle is " + area);
+            return area;
         }
     }
 
@@ -111,25 +117,52 @@ namespace _10Interfaces
     {
         public string SpeciesName { get; set; }
 
-        public void MakeSound() { /*...*/ }
+        public void MakeSound() 
+        {
+            Console.WriteLine("Meow!");
+        }
 
-        public void Move() { /*...*/ }
+        public void Move() 
+        {
+            Console.WriteLine("Walking gracefully");
+        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
-            //Interfaces cannot be instantiated directly, so lines such as
-            //var myCalculator = new IAreaCalculator();
-            //will not compile. However, due to polymorphism, we can treat
-            //an instance of a class that implements an interface as though it is
-            //an instance of the interface itself.
-            IAreaCalculator myCalc = new Circle()
+            Console.WriteLine("-----------------------Basic Interfaces------------------------");
+
+            Circle myCalc = new Circle()
             {
                 Radius = 2
             };
             double area = myCalc.GetArea(); //12.566
+
+            Rectangle myRect = new Rectangle()
+            {
+                Height = 5,
+                Width = 10
+            };
+            double rectArea = myRect.GetArea();
+
+            Triangle myTri = new Triangle()
+            {
+                Height = 3,
+                Width = 5
+            };
+            double triArea = myTri.GetArea();
+
+            Console.WriteLine("-----------------------Interface Inheritance------------------------");
+
+            Dog dog = new Dog();
+            dog.MakeSound();
+            dog.Move();
+
+            Cat cat = new Cat();
+            cat.MakeSound();
+            cat.Move();
         }
     }
 }

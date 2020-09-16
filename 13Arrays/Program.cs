@@ -34,7 +34,9 @@ namespace _13Arrays
             //element's index. Arrays start numbering at 0, so if you want
             //the first element in the array, your index is 0.
             var month = months[0]; //"Jan"
+            Console.WriteLine(month);
             var month2 = months[6]; //"Jul"
+            Console.WriteLine(month2);
 
             //MULTI-DIMENSIONAL ARRAYS
 
@@ -47,16 +49,26 @@ namespace _13Arrays
             int[,] myNumbers = new int[,] { { 5, 2, 6, 4 }, { 1, 8, 9, 2 }, { 9, 3, 4, 2 } };
 
             //Note that the multi-dimensional array's size is inferred from the values provided.
+            //We can iterate over a multi-dimensional array using nested for loops
+            for(int i = 0; i < 3; i++)
+            {
+                for(int j = 0; j < 4; j ++)
+                {
+                    Console.Write(myNumbers[i, j] + " ");
+                }
+            }
+            Console.WriteLine();
 
             //ACCESSING ELEMENTS
-
+            Console.WriteLine("--------------------Accessing Elements---------------------");
             //We can access elements in a multi-dimensional array by specifying the
             //index for each dimension.
             var value = myNumbers[1, 3]; //2
+            Console.WriteLine(value);
 
             //RANGES
 
-            Console.WriteLine("-------------Ranges---------------");
+            Console.WriteLine("-----------------Ranges-------------------");
 
             //In C# 8.0, we now have a way to get a subset of an array.
             //This is called a Range.
@@ -77,9 +89,9 @@ namespace _13Arrays
             var nameSubset2 = names[range];
             foreach (var name in nameSubset2)
                 Console.WriteLine(name);
-            Console.WriteLine("--------------------------------------------");
 
             //OPEN-ENDED RANGES
+            Console.WriteLine("--------------------Open-Ended Ranges---------------------");
 
             //We can get a range starting at a specific index and going to the end of the collection.
             var nameSubset3 = names[4..];
@@ -93,9 +105,7 @@ namespace _13Arrays
 
             //INDICES
 
-            Console.WriteLine();
-            Console.WriteLine("INDICES");
-            Console.WriteLine();
+            Console.WriteLine("--------------------Indices---------------------");
 
             //We can get elements relative to the end of the list using the ^ operator.
             Console.WriteLine(names[^1]); //Jannelle

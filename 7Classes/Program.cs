@@ -15,6 +15,7 @@ namespace _7Classes
             Console.WriteLine(myClass.Property1); //Null
             Console.WriteLine(myClass.Property2); //0
             Console.WriteLine(myClass.Property3); //0.0
+            Console.WriteLine(myClass); //This will output the type.
 
             //CONSTRUCTORS
             var myClassF = new ClassF("stringValue");
@@ -22,6 +23,9 @@ namespace _7Classes
 
             //IMPLICIT CONSTRUCTORS
             var myClassG = new ClassG();
+
+            //PUBLIC PARAMETERLESS CONSTRUCTOR
+            var myClassH = new ClassH();
         }
     }
 }

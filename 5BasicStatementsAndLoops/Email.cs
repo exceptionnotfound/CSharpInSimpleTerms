@@ -18,8 +18,10 @@ namespace _5BasicStatementsAndLoops
 
             foreach (var email in emails)
             {
+                Console.WriteLine(email);
                 if (email == "mybeloved@email.com")
                 {
+                    Console.WriteLine("return was executed here!");
                     return email; //Loop stops executing
                 }
             }

@@ -26,7 +26,8 @@ namespace _10AbstractClasses
         }
     }
 
-    //We can have other classes inherit from our abstract base class
+    //We can have other classes inherit from our abstract base class.
+    //Extra special bonus points to whomever knows what these class names are from.
     public class Garnet : Gem
     {
         public override decimal GetValuePerCarat()
@@ -86,11 +87,12 @@ namespace _10AbstractClasses
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("-----------------Abstract Basics--------------------");
             var garnet = new Garnet();
             var value = garnet.GetValuePerCarat(); //Defined in Garnet class
-            Console.WriteLine(value);
+            Console.WriteLine("Garnet value per carat: " + value);
             var commonColors = garnet.GetCommonColors(); //Defined in Gem base class
-            Console.WriteLine(commonColors);
+            Console.WriteLine("All gems common colors: " + commonColors);
 
             //OTHER DETAILS
             //Like an interface, abstract classes cannot be instantiated directly.

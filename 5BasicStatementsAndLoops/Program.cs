@@ -49,6 +49,7 @@ namespace _5BasicStatementsAndLoops
             //Note that we can have multiple values execute the same code
             //by "stacking" the case statements, such as case 3 and 4 below.
 
+            //Change this value to see different parts of the switch executed.
             var sponsorLevel = 2;
 
             switch (sponsorLevel)
@@ -75,7 +76,9 @@ namespace _5BasicStatementsAndLoops
             //If we need a concrete value instead of executing code, we can use
             //a switch statement.
             //The enums CardColor and CardType are defined in the Enums.cs file in this project.
-            var cardType = CardType.Economic; //Change this value to output different colors.
+
+            //Change this value to output different colors.
+            var cardType = CardType.Economic; 
 
             var cardColor = cardType switch //Switch expression
             {
@@ -113,7 +116,7 @@ namespace _5BasicStatementsAndLoops
             }
 
             //We can also use increments of values other than 1
-            for (int i = 0; i < 10; i = i + 2)
+            for (int i = 0; i < 10; i += 2)
             {
                 Console.WriteLine("You will see this line five times.");
             }
@@ -126,7 +129,7 @@ namespace _5BasicStatementsAndLoops
             var items = new int[] { 4, 5, 6, 7, 8 };
             foreach (var item in items) //item is an int
             {
-                Console.WriteLine(item + 1);
+                Console.WriteLine(item);
             }
 
             //Drawing class defined in Drawing.cs
@@ -142,7 +145,7 @@ namespace _5BasicStatementsAndLoops
                 }
             };
 
-            foreach (var iterator in drawings) //iterator is of type Drawing
+            foreach (Drawing iterator in drawings)
             {
                 Console.WriteLine(iterator.Name);
             }
@@ -192,6 +195,7 @@ namespace _5BasicStatementsAndLoops
                 Console.WriteLine("The current value of i is " + i.ToString());
                 if (i == 7)
                 {
+                    Console.WriteLine("For loop was broken here!");
                     break; //Will exit the for loop
                 }
             }
@@ -206,6 +210,7 @@ namespace _5BasicStatementsAndLoops
             {
                 if (myVal == 7)
                 {
+                    Console.WriteLine("Continue was executed here!");
                     myVal++;
                     continue; //If i == 7, processing stops here and resumes
                               //at the top of the loop with the next value 701.
