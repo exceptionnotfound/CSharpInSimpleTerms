@@ -120,6 +120,18 @@ namespace _2PrimitiveTypes
                            //not give it a value at instantiation, its value
                            //will be null.
 
+            //DATETIME
+            Console.WriteLine("------------------DateTime-------------------");
+            //The type DateTime represents a point in time, typically expressed
+            //as a date and a time.
+            DateTime date1 = new DateTime();
+            DateTime date2 = new DateTime(2020, 3, 15); //15 March 2020
+            DateTime date3 = new DateTime(2020, 3, 15, 10, 30, 00); //15 March 2020, 10:30 AM
+
+            Console.WriteLine(date1);
+            Console.WriteLine(date2);
+            Console.WriteLine(date3);
+
             //LITERAL VALUES
 
             //In C#, if we write this code:
@@ -140,6 +152,7 @@ namespace _2PrimitiveTypes
             var myUnsignedInt = 98765U; //Type uint, will be type ulong if the value is too large
 
             //NULLABLE VALUES
+            Console.WriteLine("---------------Nullable Values----------------");
 
             //We can declare a nullable variable by using the ? operator.
             char? c = null;
@@ -174,18 +187,6 @@ namespace _2PrimitiveTypes
                 Console.WriteLine(myNullableValue2.Value); //Line does not execute, 
                                                            //since myValue2 is null
             }
-
-            //DATETIME
-
-            //The type DateTime represents a point in time, typically expressed
-            //as a date and a time.
-            DateTime date1 = new DateTime();
-            DateTime date2 = new DateTime(2020, 3, 15); //15 March 2020
-            DateTime date3 = new DateTime(2020, 3, 15, 10, 30, 00); //15 March 2020, 10:30 AM
-
-            Console.WriteLine(date1);
-            Console.WriteLine(date2);
-            Console.WriteLine(date3);
 
             Console.ReadLine();
         }
