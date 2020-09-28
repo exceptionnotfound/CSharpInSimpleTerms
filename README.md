@@ -2,8 +2,8 @@
 This project is used as part of a mega-series on my blog. The publish order and dates for the posts are below. Pull requests are welcome!
 
 0. [Introduction](https://exceptionnotfound.net/introducing-csharp-in-simple-terms/)
-1. The Type System (24 September)
-2. Primitive Types, Literals, and Nullables (28 September)
+1. [The Type System](https://exceptionnotfound.net/csharp-in-simple-terms-1-the-type-system/)
+2. [Primitive Types, Literals, and Nullables](https://exceptionnotfound.net/csharp-in-simple-terms-2-primitive-types-literals-and-nullables/)
 3. Casting, Conversion, and Parsing (1 October)
 4. Operators (5 October)
 5. Code Blocks, Basic Statements, and Loops (8 October)
