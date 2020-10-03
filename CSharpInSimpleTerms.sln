@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13Collections", "13Collecti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14LINQBasics", "14LINQBasics\14LINQBasics.csproj", "{578F876A-1C2B-42BE-B9EF-BF6E491B9526}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16Tuples", "16Tuples\16Tuples.csproj", "{E256D4C2-F57C-4F99-BE1A-ADB1B115899D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16Tuples", "16Tuples\16Tuples.csproj", "{E256D4C2-F57C-4F99-BE1A-ADB1B115899D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16AnonymousTypes", "16AnonymousTypes\16AnonymousTypes.csproj", "{A55149E2-5978-434C-A389-E636393282F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16AnonymousTypes", "16AnonymousTypes\16AnonymousTypes.csproj", "{A55149E2-5978-434C-A389-E636393282F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17AttributesAndReflection", "17AttributesAndReflection\17AttributesAndReflection.csproj", "{D593E78D-3501-4A12-A473-5CEF7E27B157}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{A55149E2-5978-434C-A389-E636393282F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55149E2-5978-434C-A389-E636393282F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55149E2-5978-434C-A389-E636393282F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D593E78D-3501-4A12-A473-5CEF7E27B157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D593E78D-3501-4A12-A473-5CEF7E27B157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D593E78D-3501-4A12-A473-5CEF7E27B157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D593E78D-3501-4A12-A473-5CEF7E27B157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
