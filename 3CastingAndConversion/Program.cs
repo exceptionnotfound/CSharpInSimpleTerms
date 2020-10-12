@@ -58,11 +58,12 @@ namespace _3CastingAndConversion
                                                       //the decimal value was rounded
             Console.WriteLine(intMoney2);
 
-            //The Convert class can also handle numeric to non-numeric conversions.
+            //The Convert class can handle non-numeric to numeric conversions.
             string stringFive = "5.0";
             decimal decFive = Convert.ToDecimal(stringFive); //Value is 5.0
             Console.WriteLine(decFive);
 
+            //The Convert class can also handle numeric to non-numeric conversions.
             double myValue = 5.33;
             string stringValue = Convert.ToString(myValue); //Value is "5.33"
             Console.WriteLine(stringValue);
@@ -76,7 +77,7 @@ namespace _3CastingAndConversion
             //The string type, being a reference type, needs to be converted
             //in a special manner; we call this *parsing*.
 
-            //If we needed to parse a string to a decimal, we could use the Parse() method.
+            //If we need to parse a string to a decimal, we could use the Parse() method.
             string decString = "5.632";
             decimal decValue = decimal.Parse(decString); //Value is 5.632M
             Console.WriteLine(decValue);
@@ -89,7 +90,7 @@ namespace _3CastingAndConversion
             string intTest = "This is a test string";
             //int intValue = int.Parse(intTest); //Uncomment this line to get an exception.
 
-            //For situations in which is it possible for the string to not have a value
+            //For situations in which it is possible for the string to not have a value
             //that is parsable, we can use the TryParse() method.
             string value = "5.0";
             decimal result;
@@ -100,7 +101,7 @@ namespace _3CastingAndConversion
             //IS KEYWORD
             Console.WriteLine("---------------------is Keyword-----------------------");
             //Sometimes, we don't know the type of a given object.
-            //C# provides the is keyword to test if an object is of a specified type.
+            //C# provides the 'is' keyword to test if an object is of a specified type.
             var myUnknownValue = 6.5M; //M literal means type will be decimal
             if (myUnknownValue is decimal) {
                 Console.WriteLine(myUnknownValue);
@@ -109,7 +110,7 @@ namespace _3CastingAndConversion
             //AS KEYWORD
             Console.WriteLine("---------------------as Keyword-----------------------");
             //For reference types (e.g. string, classes, etc.) C# provides us with the
-            //as keyword to convert one reference type to another.
+            //'as' keyword to convert one reference type to another.
             string testString2 = "This is a test"; //string is a reference type
             object objString = (object)testString2; //Cast the string to an object
 
@@ -117,14 +118,14 @@ namespace _3CastingAndConversion
             Console.WriteLine(test2);
 
             //Note that this only works for conversions that are known to exist;
-            //if a valid conversion does not exist we get an error.
+            //If a valid conversion does not exist we get an error.
 
             var myClass = new ClassA(); //ClassA and ClassB defined in Classes.cs file
             //var newClass = myClass as ClassB; //Uncomment this line to get an exception.
 
             //GETTYPE() AND TYPEOF
             Console.WriteLine("---------------------GetType() and typeof-----------------------");
-            //For any object in C#, we can get its type by calling the GetType() method.
+            //For any object in C#, we can get it's type by calling the GetType() method.
             var sentence = "This is a sentence.";
             var type = sentence.GetType();
             Console.WriteLine(type); //Output: System.String
