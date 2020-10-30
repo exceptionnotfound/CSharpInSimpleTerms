@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18Lambdas", "18Lambdas\18La
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19StringManipulation", "19StringManipulation\19StringManipulation.csproj", "{6C3B58B2-021E-4883-B45B-5B12FAA5BA6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20DatesAndTimes", "20DatesAndTimes\20DatesAndTimes.csproj", "{2511A62F-2E85-487B-A670-F532CBA1228C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20DatesAndTimes", "20DatesAndTimes\20DatesAndTimes.csproj", "{2511A62F-2E85-487B-A670-F532CBA1228C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21Indexers", "21Indexers\21Indexers.csproj", "{F5B7FE46-7DD1-4B73-98A0-8C066902E4C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{2511A62F-2E85-487B-A670-F532CBA1228C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2511A62F-2E85-487B-A670-F532CBA1228C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2511A62F-2E85-487B-A670-F532CBA1228C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B7FE46-7DD1-4B73-98A0-8C066902E4C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B7FE46-7DD1-4B73-98A0-8C066902E4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B7FE46-7DD1-4B73-98A0-8C066902E4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B7FE46-7DD1-4B73-98A0-8C066902E4C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
