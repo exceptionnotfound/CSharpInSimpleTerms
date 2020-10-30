@@ -12,7 +12,7 @@ This project is used as part of a mega-series on my blog. The publish order and 
 8. [Structs and Enums](https://exceptionnotfound.net/csharp-in-simple-terms-8-structs-and-enums/)
 9. [Inheritance and Polymorphism](https://exceptionnotfound.net/csharp-in-simple-terms-9-inheritance-and-polymorphism/)
 10. [Interfaces and Abstract Classes](https://exceptionnotfound.net/csharp-in-simple-terms-10-interfaces-and-abstract-classes/)
-11. Namespaces (29 October)
+11. [Namespaces](https://exceptionnotfound.net/csharp-in-simple-terms-11-namespaces/)
 12. Exceptions and Exception Handling (2 November)
 13. Arrays and Collections (5 November)
 14. LINQ Basics (9 November)
@@ -22,3 +22,4 @@ This project is used as part of a mega-series on my blog. The publish order and 
 18. Expressions, Lambdas, and Delegates (23 November)
 19. String Manipulation and Cultures (30 November)
 20. Dates and Times (7 December)
+21. Indexers (14 December)
