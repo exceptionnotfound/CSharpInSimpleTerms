@@ -5,5 +5,5 @@ using System.Text;
 namespace _3CastingAndConversion
 {
     public class ClassA { /*...*/ }
-    public class ClassB { /*...*/ }
+    public class ClassB : ClassA { /*...*/ }
 }

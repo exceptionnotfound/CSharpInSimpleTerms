@@ -119,8 +119,11 @@ namespace _3CastingAndConversion
             //Note that this only works for conversions that are known to exist;
             //if a valid conversion does not exist we get an error.
 
-            var myClass = new ClassA(); //ClassA and ClassB defined in Classes.cs file
-            //var newClass = myClass as ClassB; //Uncomment this line to get an exception.
+            var myClass = new ClassB(); //ClassA and ClassB defined in Classes.cs file
+            var newClass = myClass as ClassA; //newClass becomes a pointer to the instance of myClass...
+
+            //Note that in this example
+            Console.WriteLine(newClass);//...So it will be rendered to the command line as an instance of ClassB
 
             //GETTYPE() AND TYPEOF
             Console.WriteLine("---------------------GetType() and typeof-----------------------");

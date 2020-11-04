@@ -33,7 +33,7 @@ namespace _2PrimitiveTypes
             Console.WriteLine(thirteenHundred);
             int negativeForty = -40;
             Console.WriteLine(negativeForty);
-            int intMaxValue = int.MaxValue; //(2^32 - 1)
+            int intMaxValue = int.MaxValue; //(2^31 - 1)
             Console.WriteLine("Max Value:" + intMaxValue);
 
             //A short represents a 16-bit integer
@@ -42,14 +42,14 @@ namespace _2PrimitiveTypes
             Console.WriteLine(two);
             short negativeOneHundred = -100;
             Console.WriteLine(negativeOneHundred);
-            short shortMaxValue = short.MaxValue; //(2^16 - 1)
+            short shortMaxValue = short.MaxValue; //(2^15 - 1)
             Console.WriteLine("Max Value: " + shortMaxValue);
 
             //A long represents a 64-bit integer
             Console.WriteLine("---------------------long-----------------------");
             long fifty = 50;
             Console.WriteLine(fifty);
-            long longMaxValue = long.MaxValue; //(2^64 - 1)
+            long longMaxValue = long.MaxValue; //(2^63 - 1)
             Console.WriteLine("Max Value: " + longMaxValue);
 
             //A byte represents an 8-bit integer, but can only 
@@ -57,7 +57,7 @@ namespace _2PrimitiveTypes
             Console.WriteLine("---------------------byte-----------------------");
             byte four = 4;
             Console.WriteLine(four);
-            byte byteMaxValue = byte.MaxValue; //(2^8 - 1)
+            byte byteMaxValue = byte.MaxValue; //(2^7 - 1)
             Console.WriteLine("Max Value: " + byteMaxValue);
             byte byteMinValue = byte.MinValue;
             Console.WriteLine("Min Value: " + byteMinValue);
