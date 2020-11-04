@@ -1,5 +1,5 @@
 # CSharpInSimpleTerms
-This project is used as part of a mega-series on my blog. The publish order and dates for the posts are below. Pull requests are welcome!
+This project aims to describe all of C#'s features with simple, clean language. The series assumes you know nothing about C#, and want to start with the basics, though the posts can be read in any order. The publish order and dates for the posts are below. Pull requests are welcome!
 
 0. [Introduction](https://exceptionnotfound.net/introducing-csharp-in-simple-terms/)
 1. [The Type System](https://exceptionnotfound.net/csharp-in-simple-terms-1-the-type-system/)
@@ -12,8 +12,8 @@ This project is used as part of a mega-series on my blog. The publish order and 
 8. [Structs and Enums](https://exceptionnotfound.net/csharp-in-simple-terms-8-structs-and-enums/)
 9. [Inheritance and Polymorphism](https://exceptionnotfound.net/csharp-in-simple-terms-9-inheritance-and-polymorphism/)
 10. [Interfaces and Abstract Classes](https://exceptionnotfound.net/csharp-in-simple-terms-10-interfaces-and-abstract-classes/)
-11. Namespaces (29 October)
-12. Exceptions and Exception Handling (2 November)
+11. [Namespaces](https://exceptionnotfound.net/csharp-in-simple-terms-11-namespaces/)
+12. [Exceptions and Exception Handling](https://exceptionnotfound.net/csharp-in-simple-terms-12-exceptions-and-exception-handling/)
 13. Arrays and Collections (5 November)
 14. LINQ Basics (9 November)
 15. Generics (12 November)
@@ -22,3 +22,4 @@ This project is used as part of a mega-series on my blog. The publish order and 
 18. Expressions, Lambdas, and Delegates (23 November)
 19. String Manipulation and Cultures (30 November)
 20. Dates and Times (7 December)
+21. Indexers (14 December)
