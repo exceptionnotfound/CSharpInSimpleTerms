@@ -20,7 +20,7 @@ As always, pull requests are welcome!
 12. [Exceptions and Exception Handling](https://exceptionnotfound.net/csharp-in-simple-terms-12-exceptions-and-exception-handling/)
 13. [Arrays and Collections](https://exceptionnotfound.net/csharp-in-simple-terms-13-arrays-and-collections/)
 14. [LINQ Basics](https://exceptionnotfound.net/csharp-in-simple-terms-14-linq-basics/)
-15. Generics (12 November)
+15. [Generics](https://exceptionnotfound.net/csharp-in-simple-terms-15-generics/)
 16. Tuples and Anonymous Types (16 November)
 17. Attributes and Reflection(19 November)
 18. Expressions, Lambdas, and Delegates (23 November)
