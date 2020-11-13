@@ -27,3 +27,4 @@ As always, pull requests are welcome!
 19. String Manipulation and Cultures (30 November)
 20. Dates and Times (7 December)
 21. Indexers (14 December)
+22. Iterators (21 December)
