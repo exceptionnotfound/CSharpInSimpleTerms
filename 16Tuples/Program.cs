@@ -75,12 +75,12 @@ namespace _16Tuples
             Console.WriteLine(person1 == person2); //False
             Console.WriteLine(person1 != person2); //True
 
-            (int, string) person3 = (27, "Mark Hammond");
+            (int, string) person3 = (45, "John Smith");
 
             //Uncomment the below line to get a build error.
             //Console.Write(person1 == person3);
 
-            (string, int, DateTime) person4 = ("Jessica Raymond", 39, new DateTime(1981, 1, 14));
+            (string, int, DateTime) person4 = ("John Smith", 45, new DateTime(1975, 1, 14));
             //Uncomment the below line to get a build error.
             //Console.WriteLine(person1 == person4);
 
