@@ -1,5 +1,9 @@
 # CSharpInSimpleTerms
-This project aims to describe all of C#'s features with simple, clean language. The series assumes you know nothing about C#, and want to start with the basics, though the posts can be read in any order. The publish order and dates for the posts are below. Pull requests are welcome!
+This project aims to describe all of C#'s features with simple, clean language. The series assumes you know nothing about C#, and want to start with the basics, though the posts can be read in any order. 
+
+The publish order and dates for the posts are below. The original project was supposed to last 18 posts; posts 19 and later are part of the "addendum" that I added later, hence those posts will come out weekly instead of twice-a-week. 
+
+As always, pull requests are welcome!
 
 0. [Introduction](https://exceptionnotfound.net/introducing-csharp-in-simple-terms/)
 1. [The Type System](https://exceptionnotfound.net/csharp-in-simple-terms-1-the-type-system/)
@@ -14,12 +18,13 @@ This project aims to describe all of C#'s features with simple, clean language. 
 10. [Interfaces and Abstract Classes](https://exceptionnotfound.net/csharp-in-simple-terms-10-interfaces-and-abstract-classes/)
 11. [Namespaces](https://exceptionnotfound.net/csharp-in-simple-terms-11-namespaces/)
 12. [Exceptions and Exception Handling](https://exceptionnotfound.net/csharp-in-simple-terms-12-exceptions-and-exception-handling/)
-13. Arrays and Collections (5 November)
-14. LINQ Basics (9 November)
-15. Generics (12 November)
+13. [Arrays and Collections](https://exceptionnotfound.net/csharp-in-simple-terms-13-arrays-and-collections/)
+14. [LINQ Basics](https://exceptionnotfound.net/csharp-in-simple-terms-14-linq-basics/)
+15. [Generics](https://exceptionnotfound.net/csharp-in-simple-terms-15-generics/)
 16. Tuples and Anonymous Types (16 November)
 17. Attributes and Reflection(19 November)
 18. Expressions, Lambdas, and Delegates (23 November)
 19. String Manipulation and Cultures (30 November)
 20. Dates and Times (7 December)
 21. Indexers (14 December)
+22. Iterators (21 December)
