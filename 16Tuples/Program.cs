@@ -75,6 +75,11 @@ namespace _16Tuples
             Console.WriteLine(person1 == person2); //False
             Console.WriteLine(person1 != person2); //True
 
+            (int, string) person3 = (27, "Mark Hammond");
+
+            //Uncomment the below line to get a build error.
+            //Console.Write(person1 == person3);
+
             //TUPLE DECONSTRUCTION
             Console.WriteLine("------------Tuple Deconstruction-------------");
 
