@@ -80,6 +80,10 @@ namespace _16Tuples
             //Uncomment the below line to get a build error.
             //Console.Write(person1 == person3);
 
+            (string, int, DateTime) person4 = ("Jessica Raymond", 39, new DateTime(1981, 1, 14));
+            //Uncomment the below line to get a build error.
+            //Console.WriteLine(person1 == person4);
+
             //TUPLE DECONSTRUCTION
             Console.WriteLine("------------Tuple Deconstruction-------------");
 
