@@ -29,8 +29,7 @@ namespace _6Methods
             //Occassionally we want to pass out multiple values from a single method.
             //We can pass parameters using the *out* keyword to specify this.
             string intString = "5";
-            int intResult;
-            bool hasValue = int.TryParse(intString, out intResult); //Result is now 5
+            bool hasValue = int.TryParse(intString, out int intResult); //Result is now 5
 
             Console.WriteLine(hasValue.ToString());
             if (hasValue)

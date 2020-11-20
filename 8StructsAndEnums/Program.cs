@@ -96,8 +96,8 @@ namespace _8StructsAndEnums
 
             //Using the logical AND operator &, we can show the items that are in both groups.
             Months otherBirthdays = Months.January
-                        | Months.April
-                        | Months.September;
+                                    | Months.April
+                                    | Months.September;
 
             Console.WriteLine($"The months in both groups are {birthdayMonths & otherBirthdays}");
             //Output: The months in both groups are January, September

@@ -220,6 +220,4 @@ namespace _7Classes
             Console.WriteLine("Public parameterless constructor for ClassH was invoked!");
         }
     }
-
-
 }
