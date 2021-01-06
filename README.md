@@ -1,7 +1,7 @@
 # CSharpInSimpleTerms
 This project aims to describe all of C#'s features with simple, clean language. The series assumes you know nothing about C#, and want to start with the basics, though the posts can be read in any order. 
 
-The publish order and dates for the posts are below. The original project was supposed to last 18 posts; posts 19 and later are part of the "addendum" that I added later, hence those posts will come out weekly instead of twice-a-week. 
+This series is also available as a PDF; you can download it from [here](https://exceptionnotfound.net/static/CSharpInSimpleTermsFree.pdf).
 
 As always, pull requests are welcome!
 
